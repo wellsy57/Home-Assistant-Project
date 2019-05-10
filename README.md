@@ -1,5 +1,5 @@
 <h1 align="center"> Home-Assistant Project</h1>
-<h3 align="left">A place to record my progress in moving my automation from myScada to Home-Assistant</h3>
+<h3 align="left">A place to record my progress in moving my need for reliable local and remote control and monitoring from myScada to Home-Assistant</h3>
 <p align="left">
   I live in Australia <img src="https://github.com/oxguy3/flags/blob/master/mini/au.png"/> in the SE Qld region (about) half way between Brisbane and the Gold Coast. </p>
 <p align="left">Many years ago I started automating the watering of my Shadehouse for my hobby of growing Orchids. Originally I was using very simple relay logic with no remote 
