@@ -4,5 +4,7 @@
   I live in Australia <img src="https://github.com/oxguy3/flags/blob/master/mini/au.png"/> in the SE Qld region (about) half way between Brisbane and the Gold Coast. </p>
 <p align="left">Many years ago I started automating the watering of my Shadehouse for my hobby of growing Orchids. Originally I was using very simple relay logic with no remote 
 monitoring or control capability.</p>
-<p align="left"> Through necessity things progressed to start utilizing Eaton Mini PLC's with a simple LED Mimic Panel to allow an operator to diagnose sysem status and fualts 
-and then on to X-Logic PLC's with Modbus and a Scada system to enable remote control and monitoring. This was necessary as I worked as a construction electrician working remotely across Australia on a FIFO roster.</p> 
+<p align="left"> Through necessity things progressed to start utilizing Eaton Mini PLC's with a simple LED Mimic Panel to allow an operator (the wife) to diagnose system status and faults. 
+Later I moved on to X-Logic PLC's which were equipped with with Ethernet connectivity and Modbus Protocol to enable a Scada system to remotely control and monitor my shadehouse. This was necessary as I worked as a construction electrician working remotely across Australia on a FIFO roster.</p>
+<p align="left">During periods of drought the lack of water required the need for treatment of grey water for supplementing rainwater and the number of PLC's and expansion's grew with the need for more and more I/O to control that system.</p> 
+<p align="left">Things progressed again with the addition of a Photovoltaic Solar system with the need to monitor power becoming more important for me.</p>
