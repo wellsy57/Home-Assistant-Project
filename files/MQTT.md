@@ -1,6 +1,8 @@
 # Home-Assistant Devices
 
-## MQTT Devices [Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/)
+## MQTT Devices [Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
+
+[Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
 
 |Device Name                        |Usage                                                           |
 |:----------------------------------|:---------------------------------------------------------------|
@@ -44,3 +46,5 @@
 |ESP32-Cam1	                        |Driveway Camera Webserver 
 |ESP32-Cam2	                        |Pump Area Camera Webserver
 |ESP32-Cam3	                        |Spare Camera Webserver
+
+[Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
