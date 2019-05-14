@@ -19,7 +19,7 @@ Unfortunately mySCADA changed to become a very expensive (and very buggy) platfo
 
 ## Home-Assistant
 
-It was after installing [Home-Assistant](https://www.home-assistant.io/) on a QNAP TS-453 Pro NAS that I realized I might actually be able to use it as a viable alternative to an overpriced SCADA product.
+It was after installing [Home-Assistant](https://www.home-assistant.io/) on a QNAP TS-453 Pro NAS that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced SCADA product.
 
 As [Home-Assistant natively suuports Modbus](https://www.home-assistant.io/components/modbus/) I started with a spare PLC and set it up with a small program with examples of switches, binary sensors and sensors to check that my migration would be possible.
 
