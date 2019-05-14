@@ -4,8 +4,6 @@ This is a place to document my progress with moving from mySCADA to Home-Assista
 
 ## Background
 
-This is a place to document my progress with moving from mySCADA to Home-Assistant the aim being to provide for a more reliable means of local, remote control and monitoring of my existing home systems.
-
 I'm a licenced Electrical Fitter/Mechanic who often works away on large construction projects.
 Several decades ago I started automating the watering of my shadehouse for my hobby of growing Australian native plants (including orchids). I was using very simple 12volt relay logic and some modified 240V (to run on 12V) programmable timers and several valves actuated by modified 12V car windscreen wiper motors. My system had only very basic local control. At that time we lived in a remote location with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
 
@@ -19,6 +17,6 @@ The product I chose was [myScada](https://www.myscada.org/en/). When I first sta
 
 Unfortunately mySCADA changed to become a very expensive (and very buggy) platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag unlimited PLC connection version to accommodate my project which had over 300 tags and 4 PLC's. They now offered a paid tech support service for premium support and a free tech support service without any real support unfortunately.
 
-It was after playing around with Home-Asssistant installed on a QNAP TS-453 Pro NAS that I realized I might be able to make a new start with [Home-Assistant](https://www.home-assistant.io/) as a viable alternative to an overpriced SCADA product.
+It was after installing [Home-Assistant](https://www.home-assistant.io/) on a QNAP TS-453 Pro NAS that I realized I might actually be able to use it as a viable alternative to an overpriced SCADA product.
 
 [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [SYSTEMS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SYSTEMS.md) |
