@@ -23,7 +23,7 @@ Unfortunately mySCADA changed to become a very expensive (and very buggy) platfo
 
 It was after installing [Home-Assistant](https://www.home-assistant.io/) on a QNAP TS-453 Pro NAS that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced SCADA product.
 
-As [Home-Assistant natively suuports Modbus](https://www.home-assistant.io/components/modbus/) I started with a spare PLC and set it up with a small program with examples of switches, binary sensors and sensors to check that my migration would be possible.
+As [Home-Assistant natively supports Modbus](https://www.home-assistant.io/components/modbus/) I started with a spare PLC and set it up with a small program with examples of switches, binary sensors and sensors to check that my migration would be possible.
 
 This first test worked well however I soon realised there was a [problem with having multiple modbus clients](https://community.home-assistant.io/t/ability-to-add-multiple-modbus-hubs/16365) and as I have four modbus devices requiring four modbus hubs then that was a real problem for me. Luckily for me there was a [workaround which had been developed](https://community.home-assistant.io/t/multiple-tcp-modbus-slaves/99210/2) [by PtP](https://community.home-assistant.io/u/PtP) so I set about testing that with a second PLC and it worked seamlessly. The final two PLC's were also added and I flicked the switch off on the myScada server for good. The best news came when [support for multiple modbus hubs and writing to registers was added to the 0.88.0 release](https://github.com/home-assistant/home-assistant/pull/21238).  
 
