@@ -1,6 +1,6 @@
 # Home-Assistant Devices
 
-## MQTT Devices
+## MQTT Devices [Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/)
 
 |Device Name                        |Usage                                                           |
 |:----------------------------------|:---------------------------------------------------------------|
