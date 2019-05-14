@@ -14,19 +14,17 @@ These PLC's were equipped with with [Ethernet connectivity](https://en.wikipedia
 
 I chose an emerging but quite impressive product called [myScada](https://www.myscada.org/en/) to build my Scada Project. When I first started the product was at Version 4. Initially myScada was an emerging system which was still in beta development and they offered a 'free for personal use' unlimited 'tags' and PLC connections. As time went by they also developed iOS and Android apps which in the early days were quite good and relatively bug free. Surprisingly they also included quite good technical help for free.
 
-Unfortunately mySCADA changed to become a very expensive platform with the arrival of version 7. They no longer had a useful free version but as I had become a satisfied user I chose to pay for a 500 tag unlimited PLC connection version. The [mySCADA product is now up to Version 8](https://www.myscada.org/news/).
+Unfortunately mySCADA changed to become a very expensive (and very buggy) platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag unlimited PLC connection version to accommodate my project which had over 300 tags and 4 PLC's. They now offered a paid tech support service for premium support and a free tech support service without any real support unfortunately.
 
-To be blunt that was possibly the worst mistake I have ever made. However I persisted through several years of bug ridden beta updates with mostly zero help hoping they would get better until I realized I might be able to make a new start with the wonderfull Open Source [Home-Assistant](https://www.home-assistant.io/) product.
+To be blunt that purchase was possibly the worst mistake I have ever made. However I persisted through many bug ridden beta updates with mostly zero help hoping they would get better until I realized I might be able to make a new start with the wonderfull Open Source [Home-Assistant](https://www.home-assistant.io/) product.
 
-## Existing home systems
-
-## Modbus PLC's
+## Existing home systems residing on Modbus PLC's under myScada
 
 |Master PLC - Garage Area           |Slave PLC - Shadehouse Area        |House PLC - Meter Box Area         |
 |:----------------------------------|:----------------------------------|:----------------------------------|
 |Expansions: 4                      |Expansions: 5                      |Expansions: 3                      |
 |                                   |                                   |                                   |
-|**Functions**                      |**Functions**                      |**Functions**                      |
+|**Functions:**                      |**Functions:**                      |**Functions:**                      |
 |Grey Water Input                   |Activated Sludge Treatment Process |Solar Power kWh                    |
 |Stormwater Input                   |Treatment Tank Levels              |House Power kWh                    |
 |Rainwater Tank Level               |Pool/Pond Level                    |Garage Power kWh                   |
@@ -34,19 +32,20 @@ To be blunt that was possibly the worst mistake I have ever made. However I pers
 |Lower Pond Circulation             |Filtration Tank Levels             |Front Lights                       |
 |Lower Pond Discharge               |UV Treatment                       |Laundry Path Lights                |
 |Pressure Pump Control              |Waste (WAS) Management             |Hot Water Tariff on/off            |
-|Cooling Fan                        |Fertilizer Level                   |Meter Box Voltage Sensors          |
+|Control Cabinet Cooling            |Fertilizer Level                   |Meter Box Voltage Sensors          |
 |Topup Pond                         |Filtration Flush Control           |Hot Water Temperature              |
-|Garage and Outside Lights          |Shadehouse Temperature/Humidity    |                                   |
-|Movement Sensors                   |Treated Water Quality              |                                   |
-|Irrigation System                  |                                   |                                   |
-|Rainwater Measurement              |                                   |                                   |
-|Mist System                        |                                   |                                   |
+|Garage and Outside Lights          |Shadehouse Temperature/Humidity    |Movement Sensors                   |
+|Movement Sensors                   |Treated Water Quality              |Daylight Switch                    |
+|Irrigation System                  |Slow Sand Filter Levels            |Outside Temperature/Humidity       |
+|Rainwater Measurement              |Bio to Slow Sand Filter Pump       |Rumpus Temperature/Humidity                                   |
+|Mist System                        |                                   |Lounge Temperature/Humidity                                   |
 |Pump Area Screen Charger           |                                   |                                   |
 |Garage Area iPad Charger           |                                   |                                   |
 |Garage Roller Door Controller      |                                   |                                   |
 |Garage Side Door Open/Close        |                                   |                                   |
+|Garage Control Cabinet Temperature |                                   |                                   |
 
-## Other
+## Existing equipment running on Home-Assistant
 
 |QNAP NAS - Rumpus Area             |Sonoff, Wemos and ESP01 Devices    |Cameras                            |
 |:----------------------------------|:----------------------------------|:----------------------------------|
