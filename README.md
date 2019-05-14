@@ -30,7 +30,7 @@ This first test worked well however I soon realised there was a [problem with ha
 At present I have arranged my systems the below system views with associated devices:
 
 |[LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md)   |ENERGY    |STORAGE  |CLIMATE|PONDS     |IRRIGATION|INPUT     |TREATMENT |FILTRATION |
-|:--------|:---------|:--------|:------|:---------|:---------|:---------|:---------|-----------|
+|:-----------|:------------|:-----------|:---------|:------------|:------------|:------------|:------------|--------------|
 |Modbus: 9|Modbus: 23|Modbus: 6|       |Modbus: 22|Modbus: 27|Modbus: 24|Modbus: 28|Modbus: 21 |
 |MQTT: 17 |MQTT: 2   |MQTT: 3  |MQTT: 2|MQTT: 1   |          |          |          |           |
 |[DETAIL](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) |DETAIL    |DETAIL   |DETAIL |DETAIL    |DETAIL    |DETAIL    |DETAIL    |DETAIL     |
