@@ -4,7 +4,7 @@ This is a place to document my progress with moving from mySCADA to Home-Assista
 
 ## Background
 
-I'm a licenced Electrical Fitter/Mechanic who often works away on large construction projects.
+I'm a licenced Electrical Fitter/Mechanic who used to often work away on large construction projects.
 Several decades ago I started automating the watering of my shadehouse for my hobby of growing Australian native plants (including orchids). I was using very simple 12volt relay logic and some modified 240V (to run on 12V) programmable timers and several valves actuated by modified 12V car windscreen wiper motors. My system had only very basic local control. At that time we lived in a remote location with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
 
 Leaving the bush for our new home in the city things quickly progressed to start utilizing [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) with a simple LED Mimic Panel which I divised to allow an inexperienced operator (the wife or kids) to diagnose system status and any faults for me usually in conjunction with phone calls at night due to me working away.
