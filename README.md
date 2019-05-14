@@ -17,6 +17,12 @@ The product I chose was [myScada](https://www.myscada.org/en/). When I first sta
 
 Unfortunately mySCADA changed to become a very expensive (and very buggy) platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag unlimited PLC connection version to accommodate my project which had over 300 tags and 4 PLC's. They now offered a paid tech support service for premium support and a free tech support service without any real support unfortunately.
 
+## Home-Assistant
+
 It was after installing [Home-Assistant](https://www.home-assistant.io/) on a QNAP TS-453 Pro NAS that I realized I might actually be able to use it as a viable alternative to an overpriced SCADA product.
+
+As [Home-Assistant natively suuports Modbus](https://www.home-assistant.io/components/modbus/) I started with a spare PLC and set it up with a small program with examples of switches, binary sensors and sensors to check that my migration would be possible.
+
+This first test worked well however I soon realised there was a [problem with having multiple modbus clients]9https://community.home-assistant.io/t/ability-to-add-multiple-modbus-hubs/16365) (as I did). However there was a [workaround which had been developed](https://community.home-assistant.io/t/multiple-tcp-modbus-slaves/99210/2) by [PtP](https://community.home-assistant.io/u/PtP) so I set about testing that with a second PLC and it worked seamlessly. The final two PLC's were also added and I flicked the switch off on the myScada server for good. 
 
 [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [SYSTEMS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SYSTEMS.md) |
