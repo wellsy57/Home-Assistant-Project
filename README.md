@@ -27,9 +27,9 @@ This first test worked well however I soon realised there was a [problem with ha
 
 [Modbus](https://www.home-assistant.io/components/modbus/) | [Modbus Binary Sensors](https://www.home-assistant.io/components/binary_sensor.modbus/) | [Modbus Climate](https://www.home-assistant.io/components/climate.modbus/) | [Modbus Sensor](https://www.home-assistant.io/components/sensor.modbus/) | [Modbus Switch](https://www.home-assistant.io/components/switch.modbus/) 
 
-At present I the below system views with associated devices:
+At present I have arranged my systems the below system views with associated devices:
 
-|LIGHTS   |ENERGY    |STORAGE  |CLIMATE|PONDS     |IRRIGATION|INPUT     |TREATMENT |FILTRATION |
+|[LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md)   |ENERGY    |STORAGE  |CLIMATE|PONDS     |IRRIGATION|INPUT     |TREATMENT |FILTRATION |
 |:--------|:---------|:--------|:------|:---------|:---------|:---------|:---------|-----------|
 |Modbus: 9|Modbus: 23|Modbus: 6|       |Modbus: 22|Modbus: 27|Modbus: 24|Modbus: 28|Modbus: 21 |
 |MQTT: 17 |MQTT: 2   |MQTT: 3  |MQTT: 2|MQTT: 1   |          |          |          |           |
