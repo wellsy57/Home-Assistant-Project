@@ -43,7 +43,7 @@ To be blunt that was possibly the worst mistake I have ever made. However I pers
 |Garage Area iPad Charger           |                                   |                                   |
 |Garage Roller Door Controller      |                                   |                                   |
 |Garage Side Door Open/Close        |                                   |                                   |
-|:----------------------------------|:----------------------------------|:----------------------------------|
+
 
 ## Other
 
@@ -54,4 +54,4 @@ To be blunt that was possibly the worst mistake I have ever made. However I pers
 |grafana                            |Sonoff 4 Channel: 3                |Doorbell: 1                        |
 |qiot-mosquitto_amd64:0.1           |wemos D1 Mini: 1                   |Analogue: 6                        |
 |node-red-docker:0.19.4-v8          |ESP 01: 3                          |DVR: 1                             |
-|:----------------------------------|:----------------------------------|:----------------------------------|
+
