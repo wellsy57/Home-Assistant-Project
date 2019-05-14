@@ -21,4 +21,4 @@ Unfortunately mySCADA changed to become a very expensive (and very buggy) platfo
 
 To be blunt that purchase was possibly the worst mistake I have ever made. However I persisted through many bug ridden beta updates with mostly zero help hoping they would get better until I realized I might be able to make a new start with the wonderfull Open Source [Home-Assistant](https://www.home-assistant.io/) product.
 
-[SYSTEMS](https://github.com/wellsy57/Home-Assistant-Project/files/SYSTEMS.md)
+[MQTT](https://github.com/wellsy57/Home-Assistant-Project/files/MQTT.md) | [SYSTEMS](https://github.com/wellsy57/Home-Assistant-Project/files/SYSTEMS.md) |
