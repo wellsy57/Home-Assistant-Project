@@ -1,4 +1,4 @@
-## Existing home systems and equipment
+# Existing home systems and equipment
 
 ## Residing on Modbus PLC's under myScada
 
