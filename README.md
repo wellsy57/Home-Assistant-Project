@@ -18,12 +18,12 @@ Unfortunately mySCADA changed to become a very expensive platform with the arriv
 
 To be blunt that was possibly the worst mistake I have ever made. However I persisted through several years of bug ridden beta updates with mostly zero help hoping they would get better until I realized I might be able to make a new start with the wonderfull Open Source [Home-Assistant](https://www.home-assistant.io/) product.
 
-# Existing home systems
+## Existing home systems
 
 ## Modbus PLC's
 
 |Master PLC - Garage Area           |Slave PLC - Shadehouse Area        |House PLC - Meter Box Area         |
-|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+|:----------------------------------|:----------------------------------|:----------------------------------|
 |Expansions: 4                      |Expansions: 5                      |Expansions: 3                      |
 |                                   |                                   |                                   |
 |**Functions**                      |**Functions**                      |**Functions**                      |
@@ -50,7 +50,7 @@ To be blunt that was possibly the worst mistake I have ever made. However I pers
 ## Other
 
 |QNAP NAS - Rumpus Area             |Sonoff, Wemos and ESP01 Devices    |Cameras                            |
-|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+|:----------------------------------|:----------------------------------|:----------------------------------|
 |Docker Images: 4                   |Devices (Total): 28                |IP Cam: 1                          |
 |home-assistant: 0.92.0             |Sonoff Basic: 24                   |ESP32: 3                           |
 |grafana                            |Sonoff 4 Channel: 3                |Doorbell: 1                        |
