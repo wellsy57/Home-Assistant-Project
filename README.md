@@ -1,6 +1,6 @@
 # Home-Assistant Project
 
-This is a place to document my progress with moving from mySCADA to Home-Assistant the aim being to provide for a more reliable means of local, remote control and monitoring of my existing home systems
+This is a place to document my progress with moving from mySCADA to Home-Assistant the aim being to provide a more reliable means of local and remote control and monitoring of my existing home systems
 
 ## Background
 
