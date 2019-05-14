@@ -45,7 +45,6 @@ To be blunt that was possibly the worst mistake I have ever made. However I pers
 |Garage Area iPad Charger           |                                   |                                   |
 |Garage Roller Door Controller      |                                   |                                   |
 |Garage Side Door Open/Close        |                                   |                                   |
-|:----------------------------------|:----------------------------------|:----------------------------------|
 
 ## Other
 
