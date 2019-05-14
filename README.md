@@ -5,11 +5,13 @@ This is a place for me to document my progress with migrating from mySCADA to Ho
 ## Background
 
 I'm a licenced Electrical Fitter/Mechanic who used to often work away on large construction projects.
-Several decades ago I started automating the watering of my shadehouse for my hobby of growing Australian native plants (including orchids). I developed a very simple system using 12volt relay logic and some modified 240V (to run on 12V) programmable timers and  valves actuated by modified 12V car windscreen wiper motors. At that time I lived in a remote location with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
+Several decades ago I started automating the watering of my shadehouse for my hobby of growing Australian native plants (including orchids). I developed a very simple system using 12volt relay logic and some modified 240V (to run on 12V) programmable timers. The timers controlled valves actuated by modified 12V car windscreen wiper motors. 
 
-Leaving the bush for our new home just South of Brisbane with a new shadehouse things quickly progressed to a more refined programmable timer system and later I began utilizing [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) with a simple LED Mimic Panel which I divised to allow an inexperienced operator (the wife or kids) to diagnose system status and any faults for me usually in conjunction with phone calls at night due to me working away.
+At that time I lived in a remote location with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
 
-Later I moved on to higher spec [Rievtech PLC's](https://www.rievtech.com) which were purchased from the Australian/New Zealand Agent - Thomas Siegmeth who can be contacted [here](http://www.xlogic.com.au/)
+Leaving the bush for our new home just South of Brisbane with a new shadehouse things quickly progressed to a more refined programmable timer system and later I began utilizing [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) with a simple LED Mimic Panel which I divised to allow an operator (the wife or kids) to diagnose system status and any faults for me usually in conjunction with phone calls at night due to me working away.
+
+Later I moved on to higher spec [Rievtech PLC's.](https://www.rievtech.com) My system was expanding to beyong irrigation, misting and storage to include water treatment and solar power monitoring. These PLC's were purchased from the Australian and New Zealand Agent - Thomas Siegmeth who can be contacted [here.])http://www.xlogic.com.au/)
 
 These PLC's were equipped with with [Ethernet connectivity](https://en.wikipedia.org/wiki/Ethernet) using the [Modbus Protocol](https://en.wikipedia.org/wiki/Modbus) to enable a [Scada system](https://en.wikipedia.org/wiki/SCADA) to be developed allowing both local and remote control using various devices including PC's, Mobile Phones, Tablets, etc. You could use anything with a web browser and local network or internet access in fact.
 
