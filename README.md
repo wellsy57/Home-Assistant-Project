@@ -25,4 +25,15 @@ As [Home-Assistant natively suuports Modbus](https://www.home-assistant.io/compo
 
 This first test worked well however I soon realised there was a [problem with having multiple modbus clients](https://community.home-assistant.io/t/ability-to-add-multiple-modbus-hubs/16365) and as I have four modbus devices requiring four modbus hubs then that was a real problem for me. However there was a [workaround which had been developed](https://community.home-assistant.io/t/multiple-tcp-modbus-slaves/99210/2) by [PtP](https://community.home-assistant.io/u/PtP) so I set about testing that with a second PLC and it worked seamlessly. The final two PLC's were also added and I flicked the switch off on the myScada server for good. The best news came when [support for multiple modbus hubs and writing to registers was added to the 0.88.0 release](https://github.com/home-assistant/home-assistant/pull/21238).  
 
-[Modbus](https://www.home-assistant.io/components/modbus/) | [Modbus Binary Sensors](https://www.home-assistant.io/components/binary_sensor.modbus/) | [Modbus Climate](https://www.home-assistant.io/components/climate.modbus/) | [Modbus Sensor](https://www.home-assistant.io/components/sensor.modbus/) | [Modbus Switch](https://www.home-assistant.io/components/switch.modbus/) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [SYSTEMS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SYSTEMS.md) |
+[Modbus](https://www.home-assistant.io/components/modbus/) | [Modbus Binary Sensors](https://www.home-assistant.io/components/binary_sensor.modbus/) | [Modbus Climate](https://www.home-assistant.io/components/climate.modbus/) | [Modbus Sensor](https://www.home-assistant.io/components/sensor.modbus/) | [Modbus Switch](https://www.home-assistant.io/components/switch.modbus/) 
+
+At present I the below system views with associated devices:
+
+|LIGHTS   |ENERGY    |STORAGE  |CLIMATE|PONDS     |IRRIGATION|INPUT     |TREATMENT |FILTRATION |
+|:--------|:---------|:--------|:------|:---------|:---------|:---------|:---------|-----------|
+|Modbus: 9|Modbus: 23|Modbus: 6|       |Modbus: 22|Modbus: 27|Modbus: 24|Modbus: 28|Modbus: 21 |
+|MQTT: 17 |MQTT: 2   |MQTT: 3  |MQTT: 2|MQTT: 1   |          |          |          |           |
+|[DETAIL](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) |DETAIL    |DETAIL   |DETAIL |DETAIL    |DETAIL    |DETAIL    |DETAIL    |DETAIL     |
+
+
+[MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [SYSTEMS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SYSTEMS.md) |
