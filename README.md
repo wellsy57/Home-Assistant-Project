@@ -13,7 +13,7 @@ Later I moved on to [Rievtech PLC's](https://www.rievtech.com) which were purcha
 
 These PLC's were equipped with with [Ethernet connectivity](https://en.wikipedia.org/wiki/Ethernet) using the [Modbus Protocol](https://en.wikipedia.org/wiki/Modbus) to enable a [Scada system](https://en.wikipedia.org/wiki/SCADA) to be developed allowing both local and remote control using various devices including PC's, Mobile Phones, Tablets, etc. Anything with a web browser and local network or internet connection in fact.
 
-I chose an emerging but quite impressive product called [myScada](https://www.myscada.org/en/) to build my Scada Project. When I first started the product was at Version 4. Initially myScada was an emerging system which was still in beta development and they offered a 'free for personal use' unlimited 'tags' and PLC connections. As time went by they also developed iOS and Android apps which in the early days were quite good and relatively bug free. Surprisingly they also included quite good technical help for free.
+I chose an impressive product called [myScada](https://www.myscada.org/en/) to build my first Scada Project. When I first started the product was at Version 4 and it was still in beta development. As such they offered a 'free for personal use' unlimited 'tags' and PLC connections product which was fantastic. As time went by they also developed iOS and Android apps which in the early days were quite good and relatively bug free. Surprisingly they also included quite good technical help for free.
 
 Unfortunately mySCADA changed to become a very expensive (and very buggy) platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag unlimited PLC connection version to accommodate my project which had over 300 tags and 4 PLC's. They now offered a paid tech support service for premium support and a free tech support service without any real support unfortunately.
 
@@ -48,7 +48,7 @@ To be blunt that purchase was possibly the worst mistake I have ever made. Howev
 
 ## Existing equipment running on Home-Assistant
 
-|QNAP NAS - Rumpus Area             |[Sonoff, Wemos and ESP01 Devices](https://github.com/wellsy57/Home-Assistant-Project/Files/MQTT.md)    |Cameras                            |
+|QNAP NAS - Rumpus Area             |[Sonoff, Wemos and ESP01 Devices](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md)    |Cameras                            |
 |:----------------------------------|:----------------------------------|:----------------------------------|
 |Docker Images: 4                   |Devices (Total): 28                |IP Cam: 1                          |
 |home-assistant: 0.92.0             |Sonoff Basic: 24                   |ESP32: 3                           |
