@@ -23,17 +23,19 @@ To be blunt that was possibly the worst mistake I have ever made. However I pers
 ## Modbus PLC's
 
 |Master PLC - Garage Area           |Slave PLC - Shadehouse Area        |House PLC - Meter Box Area         |
-|:----------------------------------|:----------------------------------|:----------------------------------|
-|Expansions: 4 Tags: ?              |Expansions: 5 Tags: ?              |Expansions: 3 Tags: ?              |
-|Grey Water Input                   |Activated Sludge Treatment Process |House Power kWh                    |
-|Stormwater Input                   |Treatment Tank Levels              |Garage Power kWh                   |
-|Rainwater Tank Level               |Pool/Pond Level                    |Cumulative Power kWh               |
-|Garage Sump Input                  |Reed Bed Level                     |Front Lights                       |
-|Lower Pond Circulation             |Filtration Tank Levels             |Laundry Path Lights                |
-|Lower Pond Discharge               |UV Treatment                       |Hot Water Tariff on/off            |
-|Pressure Pump Control              |Waste (WAS) Management             |Meter Box Voltage Sensors          |
-|Cooling Fan                        |Fertilizer Level                   |Hot Water Temperature              |
-|Topup Pond                         |Filtration Flush Control           |Solar Power kWh                    |
+|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+|Expansions: 4                      |Expansions: 5                      |Expansions: 3                      |
+|                                   |                                   |                                   |
+|**Functions**                      |**Functions**                      |**Functions**                      |
+|Grey Water Input                   |Activated Sludge Treatment Process |Solar Power kWh                    |
+|Stormwater Input                   |Treatment Tank Levels              |House Power kWh                    |
+|Rainwater Tank Level               |Pool/Pond Level                    |Garage Power kWh                   |
+|Garage Sump Input                  |Reed Bed Level                     |Cumulative Power kWh               |
+|Lower Pond Circulation             |Filtration Tank Levels             |Front Lights                       |
+|Lower Pond Discharge               |UV Treatment                       |Laundry Path Lights                |
+|Pressure Pump Control              |Waste (WAS) Management             |Hot Water Tariff on/off            |
+|Cooling Fan                        |Fertilizer Level                   |Meter Box Voltage Sensors          |
+|Topup Pond                         |Filtration Flush Control           |Hot Water Temperature              |
 |Garage and Outside Lights          |Shadehouse Temperature/Humidity    |                                   |
 |Movement Sensors                   |Treated Water Quality              |                                   |
 |Irrigation System                  |                                   |                                   |
@@ -43,15 +45,14 @@ To be blunt that was possibly the worst mistake I have ever made. However I pers
 |Garage Area iPad Charger           |                                   |                                   |
 |Garage Roller Door Controller      |                                   |                                   |
 |Garage Side Door Open/Close        |                                   |                                   |
-
+|:----------------------------------|:----------------------------------|:----------------------------------|
 
 ## Other
 
 |QNAP NAS - Rumpus Area             |Sonoff, Wemos and ESP01 Devices    |Cameras                            |
-|:----------------------------------|:----------------------------------|:----------------------------------|
+|:---------------------------------:|:---------------------------------:|:---------------------------------:|
 |Docker Images: 4                   |Devices (Total): 28                |IP Cam: 1                          |
 |home-assistant: 0.92.0             |Sonoff Basic: 24                   |ESP32: 3                           |
 |grafana                            |Sonoff 4 Channel: 3                |Doorbell: 1                        |
 |qiot-mosquitto_amd64:0.1           |wemos D1 Mini: 1                   |Analogue: 6                        |
 |node-red-docker:0.19.4-v8          |ESP 01: 3                          |DVR: 1                             |
-
