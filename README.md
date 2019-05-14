@@ -9,7 +9,7 @@ Several decades ago I started automating the watering of my shadehouse for my ho
 
 Leaving the bush for our new home in the city things quickly progressed to start utilizing [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) with a simple LED Mimic Panel which I divised to allow an inexperienced operator (the wife or kids) to diagnose system status and any faults for me usually in conjunction with phone calls at night due to me working away.
 
-Later I moved on to [Rievtech PLC's](https://www.rievtech.com) which were purchased from the Australian Agent - Thomas Siegmeth who can be contacted [here](http://www.xlogic.com.au/)
+Later I moved on to [Rievtech PLC's](https://www.rievtech.com) which were purchased from the Australian/New Zealand Agent - Thomas Siegmeth who can be contacted [here](http://www.xlogic.com.au/)
 
 These PLC's were equipped with with [Ethernet connectivity](https://en.wikipedia.org/wiki/Ethernet) using the [Modbus Protocol](https://en.wikipedia.org/wiki/Modbus) to enable a [Scada system](https://en.wikipedia.org/wiki/SCADA) to be developed allowing both local and remote control using various devices including PC's, Mobile Phones, Tablets, etc. Anything with a web browser and local network or internet connection in fact.
 
