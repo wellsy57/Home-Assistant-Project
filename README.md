@@ -9,12 +9,12 @@ This is a place for me to document my home automation systems and processes. I w
 
 ## Background
 
-I'm a licenced Electrical Fitter/Mechanic who used to often work away on large construction projects.
+I'm a licenced Electrical Fitter/Mechanic with a wide range of experience including working away on large construction projects.
 Several decades ago I started automating the watering of my shadehouse for my hobby of growing Australian native plants (including orchids). I developed a very simple system using 12volt relay logic and some modified 240V (to run on 12V) programmable timers. The timers controlled valves actuated by modified 12V car windscreen wiper motors. 
 
-At that time I lived in a remote location with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
+At that time I lived in a remote location in north Queensland with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
 
-Leaving the bush for our new home just South of Brisbane with a new shadehouse things quickly progressed to a more refined programmable timer system and later I began utilizing a couple of [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) with a simple LED Mimic Panel which I divised to allow an operator (the wife or kids) to diagnose system status and any faults for me usually in conjunction with phone calls at night due to me working away.
+Times changed and we left the bush for our new suburban home just South of Brisbane. After constructing a new shadehouse things quickly progressed to a more refined programmable timer system and a little later I began utilizing a couple of [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) to build my own custom irrigation and misting controller. This system was equipped with a simple LED Mimic Panel which I divised to allow an operator (the wife or kids) to diagnose system status and any faults for me usually in conjunction with phone calls at night due to me working away.
 
 Later I moved on to higher spec [Rievtech PLC's.](https://www.rievtech.com) My system was expanding to way beyond irrigation, misting and storage to include water treatment and solar power monitoring and a bunch of other systems. The Rievtech PLC's were purchased from the Australian and New Zealand Agent - Thomas Siegmeth who can be contacted [here.](http://www.xlogic.com.au/)
 
