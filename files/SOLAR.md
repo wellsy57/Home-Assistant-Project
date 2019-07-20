@@ -2,8 +2,12 @@
 
 ## System 1
 
-6 kW grid tied 
+6 kW grid connected
+
 
 ## System 2
 
-5 kW grid tied
+5 kW grid connected.
+Inverter: Sungrow SG5KTL-D 4990W
+PV Modules: 18 X Q.POWER-G5 270W
+PV Array: 4860W
