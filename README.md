@@ -2,6 +2,9 @@
 
 This is a place for me to document my progress with migrating from mySCADA to Home-Assistant the aim being to provide a more affordable and reliable means of local and remote control and monitoring of my existing home systems.
 
+[SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | 
+[SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | 
+[SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | 
 [SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) |
 ## Background
 
