@@ -16,3 +16,12 @@
 |Inverter: Sungrow SG5KTL-D 4990W|
 |PV Modules: 18 X QCELL Q.POWER-G5 270W|
 |PV Array: 4860W|
+
+
+## System 3
+
+|Solar Hot Water System|
+|:-------------------------------------|
+|Brand: Edwards|
+|Capacity: 300Litre|
+|Boost Element: 3.6kW|
