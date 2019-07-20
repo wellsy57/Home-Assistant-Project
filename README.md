@@ -2,9 +2,11 @@
 
 This is a place for me to document my progress with migrating from mySCADA to Home-Assistant the aim being to provide a more affordable and reliable means of local and remote control and monitoring of my existing home systems.
 
-[SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | 
-[SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | 
-[SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | 
+[LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | 
+[CLIMATE](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/CLIMATE.md) | [STORAGE](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/STORAGE.md) | 
+[IRRIGATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/IRRIGATION.md) | [INPUT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/INPUT.md) | 
+[TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md) | [FILTRATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/.md) | 
+[SOLIDS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLIDS.md) | [MOVEMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MOVEMENT.md) | 
 [SOLAR](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | [LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) |
 ## Background
 
