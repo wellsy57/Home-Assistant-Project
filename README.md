@@ -1,13 +1,13 @@
 # Home-Assistant Project
 
-This is a place for me to document my progress with migrating from mySCADA to Home-Assistant the aim being to provide a more affordable and reliable means of local and remote control and monitoring of my existing home systems.
+This is a place for me to document my home automation systems and processes. I will also outline my progress with migrating from mySCADA to Home-Assistant. Moving has become a necessity with the aim being to provide a more affordable and reliable means of local and remote control and monitoring of my existing home systems.
 
-[LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | 
-[CLIMATE](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/CLIMATE.md) | [STORAGE](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/STORAGE.md) | 
-[IRRIGATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/IRRIGATION.md) | [INPUT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/INPUT.md) | 
-[TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md) | [FILTRATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/.md) | 
-[SOLIDS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLIDS.md) | [MOVEMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MOVEMENT.md) | 
-[MODBUS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MODBUS.md) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) |
+[LIGHTS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLAR.md) | | [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md) | 
+|:--------------------------------|:---------------------------|:-------------------------------------|
+
+
+
+
 ## Background
 
 I'm a licenced Electrical Fitter/Mechanic who used to often work away on large construction projects.
