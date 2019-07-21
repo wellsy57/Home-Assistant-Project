@@ -8,7 +8,9 @@
 Automated Lighting control for outside areas has been in place via my Modbus PLC'S using PIR Sensors, local wall switches, light relay and 'occupied/unoccupied entity' for a fair while. All sensors, wall switches, etc on the PLC system are wired to digital inputs. The FBD Program on the PLC provides ALL control logic with communications relying on Ethernet for remote control and hard wired relays, sensors and switches. This is the most robust system. The PLC program is 98% reliable and as long as there is 240v power lights are almost always working as expected locally. Remote control fails if my router and/or HA server should fail.
 
 ## MQTT + WIFI + HA
-I have a newer system in my rumpus room which is based on sonoff basics performing the functions of local wall switches, light relay, PIR sensors and the 'occupied/unoccupied entity. To ensure reliability, I use wired switch to the sonoff acting as the light relay. As longbas there is 240v power lights work. For Automation I use Tasmota Rules residing on the sonoff basic's. This provides ALL control logic with communications between devices relying on MQTT and WIFI. Remote control also relies on MQTT, WIFI and Home Assistant. 
+I have a newer system in my rumpus room which is based on sonoff basics performing the functions of local wall switches, light relay, PIR sensors and the 'occupied/unoccupied entity. To ensure reliability, I use wired switch to the sonoff acting as the light relay. As long as there is 240v power, lights work locally. 
+
+For Automation I use various Tasmota Rules residing on the applicable sonoff basic's. This provides ALL control logic with communications between devices relying on MQTT and WIFI. Remote control also fails without MQTT, WIFI and HA server.
 
 ## Auto/manual with local control and occupation
 
