@@ -1,7 +1,9 @@
 # Home-Assistant Project
 
-This is a place for me to document my home automation systems and processes. 
-I will also give a brief outline of my progress with migrating from mySCADA to Home-Assistant. 
+This is a place for me to document my home automation systems and processes.
+
+I will also give a brief outline of my progress with migrating from mySCADA to Home-Assistant.
+
 This move has become a necessity and comes with the aim of being able to provide a more affordable and reliable means of local and remote control and monitoring of my existing home systems.
 
 [HOME](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTSYS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/ENERGY.md) | [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md)
