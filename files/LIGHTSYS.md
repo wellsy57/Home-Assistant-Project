@@ -14,7 +14,9 @@ I have a newer system in my rumpus room which is based on sonoff basics performi
 
 Using an automation system based on 'occupation' is working out very well for me. I have plans to progress rolling this out throughout the rest of the house as time permits.
 
-Lighting can turned on or off anytime by local switches. Movement (PIR sensors often several within the area) will trigger an 'occupied' status once detected. The 'occupied' state remains active for a set interval of time unless more movement is detected.  Movement always resets the time interval. Once the 'occupied' state is changed to 'unoccupied' an automation turns off all lights within the area unless the system is in 'manual mode'.
+Lighting can turned on or off anytime by local switches. Movement (PIR sensors often several within the area) will trigger an 'occupied' status once detected. The 'occupied' state remains active for a set interval of time unless more movement is detected.  
+
+Movement always resets the time interval. Once there is no further movement and the 'occupied' state is changed to 'unoccupied' an automation turns off all lights within the area unless the system is in 'manual mode'.
 
 Auto mode uses a daylight switch which changes state at sunset (or overcast conditions) which causes an area becoming 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room becomes 'unoccupied'.
 
