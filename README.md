@@ -41,7 +41,7 @@ I purchased a Raspberry PI 3b+ and setup some Sonoff Basic switches flashed with
 
 My only concern was how long it took to reboot the PI. I could literally go and make a cup of coffee every time a restart was required. After some more research I realised that HA could also be installed on a higher spec machine as well.
 
-It was after installing [Home-Assistant](https://www.home-assistant.io/) on a QNAP TS-453 Pro NAS that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced SCADA product.
+It was after installing [Home-Assistant](https://www.home-assistant.io/) on a [QNAP TS-453 Pro NAS](https://www.qnap.com/en-au/product/ts-453%20pro) that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced SCADA product.
 
 As [Home-Assistant natively supports Modbus](https://www.home-assistant.io/components/modbus/) I started with a spare PLC and set it up with a small program with examples of switches, binary sensors and sensors to check that moving would be possible.
 
