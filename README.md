@@ -12,7 +12,7 @@ This move has become a necessity to provide me with a more reliable means of loc
 
 ## Background
 
-I'm an Electrical Fitter/Mechanic with a wide range of varied experience. My own personal journey into automation began when I lived in a remote location in north Queensland with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
+I'm an Electrical Fitter/Mechanic with a wide range of varied experience but a leaning towards automation and control. My own personal journey into automation began when I lived in a remote location in north Queensland with no access to mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
 
 I started automating the watering and misting of my shadehouse for my hobby of growing Australian native plants (including orchids). I developed a system using 12volt relay logic and some modified 240V programmable timers. The now 12v DC timers and relays controlled valves actuated by modified 12V car windscreen wiper motors. 
 
