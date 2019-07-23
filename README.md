@@ -2,9 +2,8 @@
 
 This is a place for me to document my home automation systems and processes.
 
-I will also give a brief outline of my progress with migrating from mySCADA to Home-Assistant.
-
-This move has become a necessity and comes with the aim of being able to provide a more affordable and reliable means of local and remote control and monitoring of my existing home systems.
+I will also give a brief outline of my progress with moving from mySCADA to Home-Assistant.
+This move has become a necessity. The aim is to provide a more reliable means of local and remote control and monitoring of my existing home systems.
 
 [HOME](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTSYS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/ENERGY.md) | [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md)
 
@@ -13,7 +12,7 @@ This move has become a necessity and comes with the aim of being able to provide
 
 ## Background
 
-I'm a licenced Electrical Fitter/Mechanic with a wide range of experience including working away on large construction projects.
+I'm an Electrical Fitter/Mechanic with a wide range of experience including working away on large construction projects.
 Several decades ago I started automating the watering of my shadehouse for my hobby of growing Australian native plants (including orchids). I developed a very simple system using 12volt relay logic and some modified 240V (to run on 12V) programmable timers. The timers controlled valves actuated by modified 12V car windscreen wiper motors. 
 
 At that time I lived in a remote location in north Queensland with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
