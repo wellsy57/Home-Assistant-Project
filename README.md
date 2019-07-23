@@ -51,11 +51,11 @@ This first test worked well however I soon realised there was a [problem with ha
 
 1. PLC's operate autonomously on the near-real time control of the process, using the last command given from the supervisory system. Failure of the communications network does not necessarily stop the plant process controls, and on resumption of communications, the operator can continue with monitoring and control.
 
-2. Always include local control where malfunction of automation or controlcould cause unsafe conditions.
+2. Always include local lockout where malfunction of automation or control could cause unsafe conditions.
 
 3. Ensure all equipment is installed and maintained in a safe manner.
 
-4. Never rely on remote control or supervisory systems to override local control.
+4. Never allow remote control or supervisory systems to override local lockout control.
 
 
 [Modbus](https://www.home-assistant.io/components/modbus/) | [Modbus Binary Sensors](https://www.home-assistant.io/components/binary_sensor.modbus/) | [Modbus Climate](https://www.home-assistant.io/components/climate.modbus/) | [Modbus Sensor](https://www.home-assistant.io/components/sensor.modbus/) | [Modbus Switch](https://www.home-assistant.io/components/switch.modbus/)
