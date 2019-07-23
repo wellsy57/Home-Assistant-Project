@@ -33,7 +33,7 @@ So the search began for a better solution which ended up being Home-Assistant.
 
 I purchased a Raspberry PI 3b+ and setup some Sonoff Basic switches flashed with Tasmota and quickly realized how powerful HA was. What really thrilled me was the incredible wealth of community help for seemingly every problem that arose.
 
-My only concern was how long it took to reboot the PI. I could literally go and make a cup of coffee every time a restart was required. After some more research I realised that HA Could also be installed on a higher spec machine as well.
+My only concern was how long it took to reboot the PI. I could literally go and make a cup of coffee every time a restart was required. After some more research I realised that HA could also be installed on a higher spec machine as well.
 
 It was after installing [Home-Assistant](https://www.home-assistant.io/) on a QNAP TS-453 Pro NAS that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced SCADA product.
 
