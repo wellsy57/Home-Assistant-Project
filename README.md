@@ -3,7 +3,7 @@
 This is a place for me to document my home automation systems and processes.
 
 I will also give a brief outline of my progress with moving from mySCADA to Home-Assistant.
-This move has become a necessity to provide me with a more reliable means of local and remote control and monitoring of my existing home systems.
+This move has become a necessity to provide me with a more reliable means of local and remote control and monitoring of my existing (and future) home systems.
 
 [HOME](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTSYS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/ENERGY.md) | [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md)
 
@@ -14,7 +14,7 @@ This move has become a necessity to provide me with a more reliable means of loc
 
 I'm an Electrical Fitter/Mechanic with a wide range of varied experience. My own personal journey into automation began when I lived in a remote location in north Queensland with no mains power. Our only means of 'always on' power being an 84W 12V solar array with 1000 amp/hour battery storage.
 
-I started automating the watering and misting of my shadehouse for my hobby of growing Australian native plants (including orchids). I developed a system using 12volt relay logic and some modified 240V programmable timers. The now 12v timers controlled valves actuated by modified 12V car windscreen wiper motors. 
+I started automating the watering and misting of my shadehouse for my hobby of growing Australian native plants (including orchids). I developed a system using 12volt relay logic and some modified 240V programmable timers. The now 12v DC timers and relays controlled valves actuated by modified 12V car windscreen wiper motors. 
 
 Times changed and we left the bush for our new suburban home just South of Brisbane. After constructing a new shadehouse things quickly progressed to a more refined programmable timer system still using relay logic but a little later I began utilizing a couple of [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) to build my own custom irrigation and misting controller with precise misting control down to seconds. This system was equipped with a simple LED Mimic Panel which I divised to allow an operator (the wife or kids) to diagnose system status and any faults for me usually in conjunction with phone calls at night due to me working away.
 
