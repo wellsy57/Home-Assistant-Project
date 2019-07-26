@@ -23,21 +23,23 @@ Later I moved on to higher spec [Rievtech PLC's.](https://www.rievtech.com) My s
 
 I chose the Rievetech PLC's because they were equipped with with [Ethernet connectivity](https://en.wikipedia.org/wiki/Ethernet) using the [Modbus Protocol](https://en.wikipedia.org/wiki/Modbus) so I was now able to include a [Scada system](https://en.wikipedia.org/wiki/SCADA) with local and remote control by various devices including PC's, Mobile Phones, Tablets, etc. You could use anything with a web browser and local network or internet access in fact. Programming of the PLC's is done using easy to learn xLogic Soft Function Block Diagram Software which is a [free download from here.](https://www.rievtech.com/download.html) You can also download Manuals, regular PLC updates and a bunch of other useful items as well.
 
-## But why PLC'S?
+## But why PLC's?
 
-Because PLC's operate autonomously on the near-real time control of the process, using the last command given from the supervisory system. Failure of the communications network does not necessarily stop the plant process controls, and on resumption of communications, the operator can continue with monitoring and control. If all sensors, switches, instruments, etc are hard wired to the PLC and the program is carefully designed any unsafe outcomes will halt the process with no user intervention required. Operators can always use local control stations (LCS) to halt any unsafe equipment operation.
+PLC's have been a huge part of my life as an electrician so I naturally looked at options for automation using them.
+
+PLC's operate autonomously with a high degree or reliability and accuracy. Operator input can be via simple switch inputs, HMI Panels, or a networked supervisory system. Failure of the HMI Panels or communications network does not necessarily stop the process controls, and on resumption of communications, etc, the operator can continue with monitoring and control. If all sensors, switches, instruments, etc are hard wired to the PLC and the PLC program is carefully designed, then any unsafe outcomes will halt the process with no user intervention required. If control system remain down for long periods the operators can always use local control stations (LCS) to halt any unsafe equipment operation OR terminate the whole process.
 
 ## Scada
 
-The Scada product I chose was [myScada](https://www.myscada.org/en/). When I first started using the product it was at Version 4 and was still in beta development. As such the makers offered a free for personal use, unlimited tags and PLC connections product which was fantastic. As time went by they also developed very affordable iOS and Android apps which in the early days were quite good and relatively bug free. Surprisingly they also included quite good technical help for free.
+The Scada (SUPERVISORY, CONTROL and DATA AQUISITION) product I chose was [myScada](https://www.myscada.org/en/). When I first started using the mySCADA product it was at Version 4 and still in beta development. As such the makers offered a free for personal use, unlimited tags and PLC connections product which was really fantastic. As time went by they also developed very affordable iOS and Android apps which were quite good and relatively bug free. Surprisingly they also included very good technical help for free.
 
-Unfortunately mySCADA changed to become a very expensive and very buggy platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag, unlimited PLC connection version to accommodate my project which had well over 300 tags and 4 PLC's. They now offered a paid tech support service for 'premium support' and a free tech support service 'without any real support' unfortunately. The final straw for me was when Version 8 arrived and I wanted to shift my software to new server. I received zero help with a new Product Key which was required on the new server.
+Unfortunately mySCADA changed to become a very expensive and very buggy platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag, unlimited PLC connection version to accommodate my project which had well over 300 tags and 4 PLC's with 15 expansion devices. They now offered a paid tech support service for 'premium support' and a free tech support service 'without any real support' unfortunately. The final straw for me was when Version 8 arrived and I wanted to shift my software to new server. I received zero help with a new Product Key which was required on the new server.
 
 So the search began for a better solution which ended up being Home-Assistant.
 
 ## Home-Assistant
 
-I purchased a Raspberry PI 3b+ and setup some Sonoff Basic switches flashed with Tasmota as a first test and quickly realized how powerful HA was. What really thrilled me was the incredible wealth of community help for seemingly every problem that arose.
+I purchased a Raspberry PI 3 b+ and setup some Sonoff Basic switches flashed with Tasmota as a first test and quickly realized how powerful HA was. What really thrilled me was the incredible wealth of community help for seemingly every problem that arose.
 
 My only concern was how long it took to reboot the PI. I could literally go and make a cup of coffee every time a restart was required. After some more research I realised that HA could also be installed on a higher spec machine as well.
 
