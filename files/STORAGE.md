@@ -26,7 +26,7 @@ There is also a connection via a double non-return valve to the mains via a 25mm
 
 ## Irrigation
 
-One of my PLC's is setup to perform Automated Irrigation functions via 25mm 24VAC water control solenoids. 
+One of my PLC's is setup to perform Automated Irrigation functions via several 25mm 24VAC water control solenoids. 
 
 ## Process water
 
