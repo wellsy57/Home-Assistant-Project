@@ -32,4 +32,4 @@ One of my PLC's is setup to perform Automated Irrigation functions via several 2
 
 Part of the treatment process requires treated water to flush solids from the process tanks to the Solids Removal tanks. That task is automated by the Treatment PLC via several 25mm 24VAC water control solenoids and a submersible pump.
 
-[Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md) | [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
+[Top](#water) | [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
