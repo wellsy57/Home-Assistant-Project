@@ -5,12 +5,14 @@
 
 ## Modbus + HA
 
-Automated Lighting control for outside areas has been in place via my Modbus PLC'S using PIR Sensors, local wall switches, light relay and 'occupied/unoccupied entity' for a fair while. All sensors, wall switches, etc on the PLC system are wired to digital inputs. The FBD Program on the PLC provides ALL control logic with communications relying on Ethernet for remote control and hard wired relays, sensors and switches. This is the most robust system. The PLC program is 98% reliable and as long as there is 240v power lights are almost always working as expected locally. Remote control fails if my router and/or HA server should fail.
+Automated Lighting control for outside areas has been in place via my Modbus PLC'S using PIR Sensors, local wall switches, light relay and 'occupied/unoccupied entity' for a fair while. All sensors, wall switches, etc on the PLC system are wired to digital inputs. The Function Block Diagram (FBD) Program on the PLC provides ALL control logic. To monitor and control the PLC I use TCP Ethernet connections to Home-Assistant. This is a very robust system. The PLC program is 98% reliable as long as there is 24VDC (fed from a UPS PROTECTED SUPPLY) for the PLC and 240VAC to power the lights. The system is wired to ensure local switches are working as expected if remote control should fail. 
+
+Remote control fails if my router and/or HA server should fail however these systems are on a UPS PROTECTED SUPPLY.
 
 ## MQTT + WIFI + HA
-I have a newer system in my rumpus room which is based on sonoff basics performing the functions of local wall switches, light relay, PIR sensors and the 'occupied/unoccupied entity. To ensure reliability, I use wired switch to the sonoff acting as the light relay. As long as there is 240v power, lights work locally. 
+I have a newer lighting system in my rumpus room which is based on sonoff basics performing the functions of local wall switches, light relay, PIR sensors and the 'occupied/unoccupied entity. To ensure reliability, I use a wired switch to the sonoff acting as the light relay. As long as there is 240v power, lights work locally. 
 
-For Automation I use various Tasmota Rules residing on the applicable sonoff basic's. This provides ALL control logic with communications between devices relying on MQTT and WIFI. Remote control also fails without MQTT, WIFI and HA server.
+For Automation I use various Tasmota Rules residing on the applicable sonoff basic's. This provides ALL control logic with communications between devices relying on MQTT and WIFI. Remote control also fails without MQTT, WIFI and HA server however these systems are on a UPS PROTECTED SUPPLY.
 
 ## Auto/manual with local control and occupation
 
