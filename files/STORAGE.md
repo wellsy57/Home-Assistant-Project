@@ -1,4 +1,4 @@
-# Water Storage and reticulation
+# Water Storage and Reticulation
 
 STORAGE | 
 [IRRIGATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/IRRIGATION.md) | [INPUT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/INPUT.md) | 
