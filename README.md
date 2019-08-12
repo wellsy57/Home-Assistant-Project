@@ -5,7 +5,7 @@ This is a place for me to document my home automation systems and processes.
 I will also give a brief outline of my progress with moving from mySCADA to Home-Assistant.
 This move has become a necessity to provide me with a more reliable means of local and remote control and monitoring of my existing (and future) home systems.
 
-[HOME](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTSYS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/ENERGY.md) | [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md)
+[HOME](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTSYS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/ENERGY.md) | [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md)| [CONTROL](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/CONTROL.md)
 
 
 
