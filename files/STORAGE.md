@@ -8,7 +8,7 @@ STORAGE |
 
 There are three separate storage areas to fulfil several needs within the system. 
 
-First I have a 22,000 litre rainwater/treated water polythene storage tank. 
+First I have a 22,500 litre rainwater/treated water polythene storage tank. 
 
 Second there are 7 X 200 litre polythene drums which are interconnected to give an effective capacity of 900 litres. 
 
