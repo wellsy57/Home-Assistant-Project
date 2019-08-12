@@ -6,15 +6,18 @@ TREATMENT | [FILTRATION](https://github.com/wellsy57/Home-Assistant-Project/blob
 [SOLIDS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLIDS.md) | 
 [MODBUS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/filyes/MODBUS.md) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [README](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
 
-There are three main sources of system input. 
+There are four separate treatment processes. 
 
-## Grey Water
-
-
-## Storm Water
+## Activated Sludge
 
 
-## Solids filtrate
+## Reed Bed
+
+
+## Slow Sand Filtration
+
+
+## UV Treatment
 
 
 [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
