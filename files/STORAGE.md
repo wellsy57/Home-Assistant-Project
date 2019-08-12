@@ -20,7 +20,7 @@ Lastly is a 55000 litre reinforced concrete in-ground swimming pool (the Pond) w
 
 ## Pressure Pump System
 
-There are two 25mm discharge pressure pumps (in two locations) connected to a common pressure line which runs irrigation solenoids, garden taps and transfer valves, etc, within the system. The pumps are controlled via level control and auto or manual control strategies. They are interlocked to ensure only one pump can be in operation at any time.
+There are two 25mm discharge pressure pumps (in two locations) connected to a common pressure line which supplies water to irrigation solenoids, garden taps, transfer valves, etc, within the system. The pumps are controlled via level control and auto or manual control strategies. They are interlocked to ensure only one pump can be in operation at any time.
 
 There is also a connection via a double non-return valve to the mains via a 25mm valve to allow mains water to be used should that be required.
 
