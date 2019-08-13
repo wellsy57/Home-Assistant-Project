@@ -1,7 +1,7 @@
 # Lighting Control, PIR Sensors and Occupation
 
-[MOVEMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MOVEMENT.md) | 
-[MODBUS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MODBUS.md) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md)
+[HOME] | [MOVEMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MOVEMENT.md) | 
+[MODBUS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MODBUS.md) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [README](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
 
 ## Modbus + HA
 
