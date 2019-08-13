@@ -4,9 +4,6 @@
 
 This is a place for me to document my home automation systems and processes.
 
-I will also give a brief outline of my progress with moving from mySCADA to Home-Assistant.
-This move has become a necessity to provide me with a more reliable means of local and remote control and monitoring of my existing (and future) home systems.
-
 ## Background
 
 I'm an Electrical Fitter/Mechanic with a wide range of experience but a leaning towards automation and control. My own personal journey into automation began when I lived in a remote location in north Queensland with no access to mains power. Our only means of 'always on' power being an 84W 12VDC solar array with 1000 amp/hour battery storage.
