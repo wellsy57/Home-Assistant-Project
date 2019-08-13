@@ -22,7 +22,7 @@ Lighting can turned on or off anytime by local switches. Movement (PIR sensors o
 
 Movement always resets the time interval. Once there is no further movement and the 'occupied' state is changed to 'unoccupied' an automation turns off all lights within the area unless the system is in 'manual mode'.
 
-Auto mode uses a daylight switch which changes state at sunset (or overcast conditions) which causes an area becoming 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room becomes 'unoccupied'.
+Auto mode uses a daylight switch which changes state at sunset (or during overcast conditions) which causes an area also becoming 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room becomes 'unoccupied' OR are turned off manually.
 
 
 [Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
