@@ -42,7 +42,7 @@ I purchased a Raspberry PI 3 b+ and setup some Sonoff Basic switches flashed wit
 
 My only real concern was how long it took to reboot the PI. I could literally go and boil the kettle and make a cup of coffee every time a restart of the PI was required.
 
-By contrast, I could upload a completely updated SCADA project from my PC to the mySCADA SERVER across my network and restart the mySCADA server software in 20-30 seconds.
+By contrast, I could upload a completely updated mySCADA project from my PC to the mySCADA SERVER across my network and restart the mySCADA server software in 20-30 seconds.
 
 After some more research I realised that HA could also be installed on a higher spec machine as well.
 
