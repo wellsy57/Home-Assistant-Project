@@ -36,7 +36,7 @@ So the search began for a better solution which ended up being Home-Assistant.
 
 I purchased a Raspberry PI 3 b+ and setup some Sonoff Basic switches flashed with Tasmota as a first test and quickly realized how powerful HA was. What really thrilled me was the incredible wealth of community help for seemingly every problem that arose.
 
-My only concern was how long it took to reboot the PI. I could literally go and make a cup of coffee every time a restart was required.
+My only concern was how long it took to reboot the PI. I could literally go and boil the kettle and make a cup of coffee every time a restart of the PI was required.
 
 By contrast, I can upload a completely new PLC program from my PC>PLC across my network and restart the PLC in 20 seconds or so.
 
