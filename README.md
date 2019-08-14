@@ -36,9 +36,13 @@ So the search began for a better solution which ended up being Home-Assistant.
 
 I purchased a Raspberry PI 3 b+ and setup some Sonoff Basic switches flashed with Tasmota as a first test and quickly realized how powerful HA was. What really thrilled me was the incredible wealth of community help for seemingly every problem that arose.
 
-My only concern was how long it took to reboot the PI. I could literally go and make a cup of coffee every time a restart was required. After some more research I realised that HA could also be installed on a higher spec machine as well.
+My only concern was how long it took to reboot the PI. I could literally go and make a cup of coffee every time a restart was required.
 
-It was after installing [Home-Assistant](https://www.home-assistant.io/) on a [QNAP TS-453 Pro NAS](https://www.qnap.com/en-au/product/ts-453%20pro) that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced SCADA product.
+By contrast, I can upload a completely new PLC program from my PC>PLC across my network and restart the PLC in 20 seconds or so.
+
+After some more research I realised that HA could also be installed on a higher spec machine as well.
+
+It was after installing [Home-Assistant](https://www.home-assistant.io/) on a [QNAP TS-453 Pro NAS](https://www.qnap.com/en-au/product/ts-453%20pro) that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced mySCADA product.
 
 As [Home-Assistant natively supports Modbus](https://www.home-assistant.io/components/modbus/) I started the next test to see if my PLC'S were compatible. I used a spare PLC and set it up with a test program with examples of switches, binary sensors and sensors to check that moving would be possible.
 
