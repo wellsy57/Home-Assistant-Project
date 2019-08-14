@@ -30,7 +30,7 @@ The SCADA (SUPERVISORY, CONTROL and DATA AQUISITION) product I chose to implimen
 
 Unfortunately mySCADA changed to become a very expensive and very buggy platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag, unlimited PLC connection version to accommodate my project which had well over 300 tags and 4 PLC's which were equipped with 15 expansion devices. MySCADA now offered a paid tech support service for 'premium support' and a free tech support service 'without any real support' unfortunately. The final straw for me was when Version 8 arrived and I wanted to shift my software to new physical server. I received zero help with procurement of a new Product Key which was required to install on the new server.
 
-So the search began for a better solution which ended up being Home-Assistant.
+So the search began for a better solution to my SUPERVISORY, CONTROL and DATA AQUISITION needs which ended up (perhaps surprisingly) being Home-Assistant.
 
 ## Home-Assistant
 
