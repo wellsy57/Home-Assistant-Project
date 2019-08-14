@@ -22,7 +22,11 @@ To fulfil those needs I chose the Rievetech PLC's because they were well priced,
 
 The one key feature for me is that: PLC's operate autonomously with a high degree or reliability and accuracy. 
 
-Operator input can be implimented via local switch inputs (Local Control Station or LCS), [HMI Panels](https://en.wikipedia.org/wiki/User_interface) or a networked supervisory system (SCADA) which can allow advanced remote monitoring and control functions. Failure of the HMI Panels or communications network does not necessarily stop the process controls, and on resumption of communications the operator can continue with monitoring and control. If all critical sensors, switches, instruments, etc are hard wired to the PLC and the PLC program is carefully designed, then any unsafe outcomes will halt the process autonymously with no user intervention required. If the control system remains down for long periods the operators can always use local control stations (LCS) to halt any unsafe equipment operation OR terminate the whole process.
+Operator input can be implimented via local switch inputs (Local Control Station or LCS), [HMI Panels](https://en.wikipedia.org/wiki/User_interface) or a networked supervisory system (SCADA) which can allow advanced remote monitoring and control functions. Failure of the HMI Panels or communications network does not necessarily stop the process controls, and on resumption of communications the operator can continue with monitoring and control. 
+
+If all critical sensors, switches, instruments, etc are hard wired to the PLC AND the PLC program is carefully designed, then any unsafe outcomes will halt the process autonymously with no user intervention required. 
+
+If the control system remains down for long periods the operator can use local control stations (LCS) to halt any chance of unsafe equipment operation OR terminate the whole process.
 
 ## Scada
 
