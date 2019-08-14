@@ -18,9 +18,9 @@ To fulfil those needs I chose the Rievetech PLC's because they were well priced,
 
 ## But why PLC's?
 
-PLC's have been a huge part of my professional life as an electrician so I naturally looked at options for automation using them. There are a range of very affordable Mini PLC's available these days which are not quite industrial grade but are still built to very high standards.
+[PLC's](https://en.wikipedia.org/wiki/Programmable_logic_controller) have been a large part of my professional life as an electrician so I naturally looked at options for automation using them for my own purposes. These days there are also a large range of very affordable Mini PLC's available which are not quite industrial grade but are still built to very high standards.
 
-The key feature for me is that: PLC's operate autonomously with a high degree or reliability and accuracy. 
+The one key feature for me is that: PLC's operate autonomously with a high degree or reliability and accuracy. 
 
 Operator input can be implimented via local switch inputs (Local Control Station or LCS), HMI Panels or a networked supervisory system (SCADA) which can allow advanced remote monitoring and control functions. Failure of the HMI Panels or communications network does not necessarily stop the process controls, and on resumption of communications the operator can continue with monitoring and control. If all critical sensors, switches, instruments, etc are hard wired to the PLC and the PLC program is carefully designed, then any unsafe outcomes will halt the process autonymously with no user intervention required. If the control system remains down for long periods the operators can always use local control stations (LCS) to halt any unsafe equipment operation OR terminate the whole process.
 
