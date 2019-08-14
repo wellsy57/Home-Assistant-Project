@@ -34,15 +34,15 @@ Once the hardware was in place the SCADA (SUPERVISORY, CONTROL and DATA AQUISITI
 
 Unfortunately mySCADA changed to become a very expensive and very buggy platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag, unlimited PLC connection version to accommodate my project which had well over 300 tags and 4 PLC's which were equipped with 15 expansion devices. MySCADA now offered a paid tech support service for 'premium support' and a free tech support service 'without any real support' unfortunately. The final straw for me was when Version 8 arrived and I wanted to shift my software to new physical server. I received zero help with procurement of a new Product Key which was required to install on the new server.
 
-So the search began for a better solution to my SUPERVISORY, CONTROL and DATA AQUISITION needs which ended up (perhaps surprisingly) being Home-Assistant.
+So the search began for a better solution to my SUPERVISORY, CONTROL and DATA AQUISITION needs which ended up (perhaps a little surprisingly?) being Home-Assistant.
 
 ## Home-Assistant
 
 I purchased a Raspberry PI 3 b+ and setup some Sonoff Basic switches flashed with Tasmota as a first test and quickly realized how powerful HA was. What really thrilled me was the incredible wealth of community help for seemingly every problem that arose.
 
-My only concern was how long it took to reboot the PI. I could literally go and boil the kettle and make a cup of coffee every time a restart of the PI was required.
+My only real concern was how long it took to reboot the PI. I could literally go and boil the kettle and make a cup of coffee every time a restart of the PI was required.
 
-By contrast, I can upload a completely new PLC program from my PC>PLC across my network and restart the PLC in 20 seconds or so.
+By contrast, I could upload a completely updated SCADA project from my PC to the mySCADA SERVER across my network and restart the mySCADA server software in 20-30 seconds.
 
 After some more research I realised that HA could also be installed on a higher spec machine as well.
 
