@@ -44,13 +44,18 @@ My only real concern was how long it took to reboot the PI. I could literally go
 
 By contrast, I could upload a completely updated mySCADA project from my PC to the mySCADA SERVER across my network and restart the mySCADA server software in 20-30 seconds.
 
-After some more research I realised that HA could also be installed on a higher spec machine as well.
+After some more research I realised that HA could also be installed on a higher spec machine as well. 
 
 It was after installing [Home-Assistant](https://www.home-assistant.io/) on a [QNAP TS-453 Pro NAS](https://www.qnap.com/en-au/product/ts-453%20pro) that I realized I might actually be able to use it as a viable alternative to a buggy, poorly supported and overpriced mySCADA product.
 
+NOTE: My HA container restarts in 15 seconds.
+
 As [Home-Assistant natively supports Modbus](https://www.home-assistant.io/components/modbus/) I started the next test to see if my PLC'S were compatible. I used a spare PLC and set it up with a test program with examples of switches, binary sensors and sensors to check that moving would be possible.
 
-My initial modbus testing worked well however I soon realised there was a [problem with having multiple modbus clients](https://community.home-assistant.io/t/ability-to-add-multiple-modbus-hubs/16365) and as I have four modbus devices requiring four modbus hubs then that was a real problem for me. Luckily for me there was a [workaround](https://community.home-assistant.io/t/multiple-tcp-modbus-slaves/99210/2) which had been [developed by PtP](https://community.home-assistant.io/u/PtP) so I setup the spare PLC along with the first of my four system PLC's and they worked seamlessly with the workaround. Next the final two PLC's were also added and I confidently flicked the switch off on the myScada server for good. The best news came when [support for multiple modbus hubs and writing to registers was added to the 0.88.0 release](https://github.com/home-assistant/home-assistant/pull/21238).  
+My initial modbus testing worked well however I soon realised there was a [problem with having multiple modbus clients](https://community.home-assistant.io/t/ability-to-add-multiple-modbus-hubs/16365) and as I have four modbus devices requiring four modbus hubs then that was a real problem for me. Luckily for me there was a [workaround](https://community.home-assistant.io/t/multiple-tcp-modbus-slaves/99210/2) which had been [developed by PtP](https://community.home-assistant.io/u/PtP) so I setup the spare PLC along with the first of my four system PLC's and they worked seamlessly with the workaround. Next the final two PLC's were also added and I confidently flicked the switch off on the myScada server for good. The best news came when [support for multiple modbus hubs and writing to registers was added to the 0.88.0 release](https://github.com/home-assistant/home-assistant/pull/21238).
+
+Current HA version running in my QNAP ContainerStation: 0.94.0
+
 
 ## My Guiding Automation Principles
 
