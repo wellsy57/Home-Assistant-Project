@@ -15,7 +15,7 @@ I have a newer lighting system in my rumpus room which is based on sonoff basics
 
 For Automation I use various Tasmota Rules residing on the applicable sonoff basic's. This provides ALL control logic with communications between devices relying on MQTT and WIFI. Remote control also fails without MQTT, WIFI and HA server however these systems are on a UPS PROTECTED SUPPLY.
 
-## Auto/manual with local control and occupation
+## Auto with local control and occupation
 
 Using an automation system based on 'occupation' is working out very well for me. I have plans to progress rolling this out throughout the rest of the house as time permits.
 
@@ -23,7 +23,7 @@ Lighting can be turned on or off anytime by local switches. Movement (PIR sensor
 
 Further movement detection always resets the time interval. Once there is no further movement and the 'occupied' state is changed to 'unoccupied' an automation turns off all lights within the area.
 
-Automation uses a daylight switch which monitors light levels which changes state around sunset/sunrise or during overcast conditions which causes an area also becoming 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room becomes 'unoccupied' OR are turned off manually.
+Automation uses a daylight switch which constantly monitors light levels. The state changes around sunset or during overcast conditions which causes an area also becoming 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room becomes 'unoccupied' OR are turned off manually. At sunrise or when overcast conditions clear lights will not be triggered.
 
 
 [Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
