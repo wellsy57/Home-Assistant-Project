@@ -11,9 +11,9 @@ Remote control fails if my router and/or HA server should fail however these sys
 
 ## MQTT + WIFI + HA
 
-I have a newer lighting system in my rumpus room which is based on sonoff basics performing the functions of local wall switches, light relays, PIR sensors and the 'occupied entity. To ensure reliability, I use a wired switch to the sonoff acting as the light relay of selected lights. As long as there is 240v power, lights continue to work locally. 
+I have a newer lighting system (which is still evolving) in my rumpus room which is based on sonoff basics performing the functions of local wall switches, light relays, PIR sensors and the 'occupied entity. To ensure reliability, I use a wired switch to the sonoff acting as the light relay of selected lights. As long as there is 240v power, then selected lights continue to work locally. 
 
-For Automation I use various Tasmota Rules residing on the applicable sonoff basic's. This provides ALL control logic with communications between devices relying on MQTT and WIFI. Remote control also fails without MQTT, WIFI and HA server however these systems are on a UPS PROTECTED SUPPLY.
+For automation I use various Tasmota Rules residing on the applicable sonoff basic's. This provides ALL control logic with communications between devices relying on MQTT and WIFI. Remote control also fails without MQTT, WIFI and HA server however these systems are also on a UPS PROTECTED SUPPLY.
 
 ## Auto with local control and occupation
 
@@ -23,7 +23,7 @@ Lighting can be turned on or off anytime by local switches. Movement (PIR sensor
 
 Further movement detection always resets the time interval. Once there is no further movement and the 'occupied' state is changed to 'unoccupied' an automation turns off all lights within the area.
 
-Automation uses a daylight switch which constantly monitors light levels. The state changes around sunset or during overcast conditions which causes an area also becoming 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room becomes 'unoccupied' OR are turned off manually. At sunrise or when overcast conditions clear lights will not be triggered.
+Automation also uses a daylight sensor which constantly monitors light levels. The state of the daylight sensor changes around sunset or during overcast conditions which causes an area also becoming 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room becomes 'unoccupied' OR are turned off manually. At sunrise or when overcast conditions clear lights will not be triggered.
 
 
 [Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
