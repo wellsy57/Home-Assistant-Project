@@ -5,7 +5,7 @@
 
 ## PLC + HA
 
-Automated lighting control for outside areas has been in place via my PLC'S using PIR Sensors, local wall switches, light relays and the 'occupied entity' for a fair while. All sensors and wall switches used on the PLC system are wired to digital inputs on the PLC. The Function Block Diagram (FBD) Program on the PLC provides ALL control logic. To monitor and control the PLC I use a wired ethernet connection to Home-Assistant. This ensures a very robust system. The PLC program is very reliable and as long as there is 24VDC which is fed from a UPS PROTECTED SUPPLY. The PLC program is designed to be aware of the status of 240VAC to power the lights. The system is also wired to ensure local switches are working normally if remote control should fail. 
+Automated lighting control for outside areas has been in place via my PLC'S using PIR Sensors, local wall switches, light relays and the 'occupied entity' for a fair while. All sensors and wall switches used on the PLC system are wired to digital inputs on the PLC. The Function Block Diagram (FBD) Program on the PLC provides ALL control logic. To monitor and control the PLC I use a wired ethernet connection to Home-Assistant. This ensures a very robust system. The PLC program is very reliable as long as there is 24VDC which is fed from a UPS PROTECTED SUPPLY. The PLC program is designed to be aware of the status of 240VAC to power the lights. The system is also wired to ensure local switches are working normally if remote control should fail. 
 
 Remote control fails if my router and/or HA server should fail however these systems are also on a UPS PROTECTED SUPPLY.
 
