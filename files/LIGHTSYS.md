@@ -23,7 +23,7 @@ Lighting can be turned on or off anytime by either local switches or by HA. Move
 
 Further movement detection always resets the time interval. Once there is no further movement and the 'occupied' state is changed to 'unoccupied' an automation turns off all lights within the area.
 
-Automation for both 'PLC + HA' and 'MQTT + WIFI + HA' systems also uses a daylight sensor which constantly monitors light levels. The state of the daylight sensor changes around sunset or during overcast conditions which causes an area which becomes 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room or area becomes 'unoccupied' OR are turned off either manually or remotely. At sunrise or when overcast conditions clear lights will not be triggered.
+Automation for both 'PLC + HA' and 'MQTT + WIFI + HA' systems also uses a daylight sensor which constantly monitors light levels. The state of the daylight sensor changes around sunset or during overcast conditions which causes an area which becomes 'occupied' to trigger an automation to turn on the required lights. Lights remain on until the room or area becomes 'unoccupied' OR are turned off either locally or remotely. At sunrise or when overcast conditions clear lights will not be triggered.
 
 
 [Back to Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
