@@ -18,15 +18,17 @@ Input to the system comes from several areas outside the system but also as retu
 * **SOLIDS REMOVAL FILTRATE HARVESTING** Treatment and filtration produces high nutient solids waste which is filtered and removed to compost heaps for later garden and lawn use OR pumped to sewer if not able to handle the quantity produced.
 
 ## Activated Sludge
-Activated Sludge tertiary treatment is a very effective way to treat grey water, solids waste filtrate and other input streams described above. It is a biological process requiring a very small input of energy (pumping and oxygenation) and is relatively low maintenance if well designed. Treatment relies on an adequate detention time where input effluent streams are exposed to biological processes.
+[Activated Sludge](https://en.wikipedia.org/wiki/Activated_sludge) tertiary treatment is a very effective way to treat grey water, solids waste filtrate and other input streams described above. It is a biological process requiring a relatively small input of energy (ie: pumping and oxygenation) and is relatively low maintenance if the system is well designed. Treatment relies on an adequate detention time where input effluent streams are exposed to biological processes.
 
 ## Reed Bed
-Tertiary treated effluent is passed through a Secondary Treatment comprising a Constructed Reed Bed and a Gravel bio-filter to allow further biological processes and to settle out solids plus another shallow channel where treated water is exposed to natural UV. Water then passes into the pond where 75% of the surface is covered in floating rafts house reeds and other aquatic plants with roots trailing into the water.
+Tertiary treated effluent is passed through a Secondary Treatment comprising a [Constructed Reed Bed](https://en.wikipedia.org/wiki/Reed_bed) and a Gravel bio-filter to allow further biological processes and to settle out solids plus another shallow channel where treated water is exposed to natural UV. Water then passes into the pond where 75% of the surface is covered in floating rafts which house more reeds and other aquatic plants with roots trailing into the water.
 
 ## Slow Sand Filtration
-As treated water accumulates in the buffer storage in the pond and the treated water storage tanks a decision is made to allow the water to circulate further OR transfer to the main storage tank. All water in the treated water tanks has been passed through the Slow Sand Filter. Slow sand filters work through the formation of a gelatinous layer (or biofilm) called the hypogeal layer or Schmutzdecke in the top few millimetres of the fine sand layer [see here](https://en.wikipedia.org/wiki/Slow_sand_filter). Slow sand filters are also being tested for pathogen control of nutrient solutions in hydroponic systems.
+As treated water accumulates in the buffer storage in the pond and the treated water storage tanks a decision is made to allow the water to circulate further OR transfer to the main storage tank. All water in the treated water tanks has been passed through the Slow Sand Filter. Slow sand filters work through the formation of a gelatinous layer (or biofilm) called the hypogeal layer or Schmutzdecke in the top few millimetres of the fine sand layer [see here](https://en.wikipedia.org/wiki/Slow_sand_filter). The water produced from an exemplary slow sand filter is of excellent quality with 90-99% bacterial cell count reduction.
 
 ## UV Treatment
+After passing through the slow sand filter I pass the filtrate through UV Treatment at a maximum rate of 100L/hour.
+This limits the flow rate through the Slow Sand Filter which ensures water quality.
 
 
 [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
