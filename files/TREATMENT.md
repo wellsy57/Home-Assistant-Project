@@ -27,8 +27,8 @@ Tertiary treated effluent is passed through a Secondary Treatment comprising a [
 As treated water accumulates in the buffer storage in the pond and the treated water storage tanks a decision is made to allow the water to circulate further OR transfer to the main storage tank. All water in the treated water tanks has been passed through the Slow Sand Filter. Slow sand filters work through the formation of a gelatinous layer (or biofilm) called the hypogeal layer or Schmutzdecke in the top few millimetres of the fine sand layer [see here](https://en.wikipedia.org/wiki/Slow_sand_filter). The water produced from an exemplary slow sand filter is of excellent quality with 90-99% bacterial cell count reduction.
 
 ## UV Treatment
-After passing through the slow sand filter I pass the filtrate through [UV Treatment](https://en.wikipedia.org/wiki/Ultraviolet_germicidal_irradiation) at a maximum rate of 100L/hour.
-This limits the flow rate through the Slow Sand Filter which ensures water quality.
+After passing through the slow sand filter I pass the filtrate through [UV Treatment](https://en.wikipedia.org/wiki/Ultraviolet_germicidal_irradiation) at a maximum rate of approx. 100L/hour.
+This limits the flow rate through the Slow Sand Filter which ensures uniform, safe water quality.
 
 
 [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
