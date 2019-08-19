@@ -9,10 +9,13 @@ TREATMENT | [FILTRATION](https://github.com/wellsy57/Home-Assistant-Project/blob
 [SOLIDS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLIDS.md) | 
 [MODBUS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/filyes/MODBUS.md) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [README](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
 
-There are quite few separate processes which go together to provide a source of non-potable rain harvested and recycled water supply. 
+There are quite few separate processes which go together to provide a SAFE AND RELIABLE source of non-potable rain harvested and recycled water supply. 
 
 ## Input
-Input to the system comes from several 
+Input to the system comes from several areas outside the system but also as return streams within the system.
+* **RAIN HARVESTING** All areas of main house roof which can be directly captured in gutters and diverted to the 22,500L main storage tank have been.  
+Remaining roof areas run to the street with future plans to capture and transfer to the tank.   
+The garage roof is 100% captured in gutters and diverted to the 55,000L fish pond. The top 200mm of the pond is used as a buffer storage for short term storage and treatment.
 
 ## Activated Sludge
 
