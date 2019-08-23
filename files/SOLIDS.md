@@ -8,12 +8,12 @@ SOLIDS |
 
 There are six separate solids recovery streams which neeed to be dealt with. 
 
-* ** Shadehouse Swirl and Bio-Filtration solids
-* ** Pump Area Swirl and Bio-Filtration solids
-* ** Pump Area Sand Filtration backwash
-* ** Lower Pond Bio-Filtration solids
-* ** Activated sludge solids
-* ** Lower Pond to Shadehouse Flooded Pipe
+* **Shadehouse Swirl and Bio-Filtration solids**
+* **Pump Area Swirl and Bio-Filtration solids**
+* **Pump Area Sand Filtration backwash**
+* **Lower Pond Bio-Filtration solids**
+* **Activated sludge solids**
+* **Lower Pond to Shadehouse Flooded Pipe**
 
 
 [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
