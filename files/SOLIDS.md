@@ -15,7 +15,7 @@ There are six separate solids recovery streams which neeed to be dealt with.
 * **Activated sludge solids**
 * **Lower Pond to Shadehouse Flooded Pipe**
 
-The system which allows me to filter out the solids and recover the filtrate consists of 6x200L polythene drums which are linked by 25mm drum connectors to allow first settling then filtration and finally automated and controlled pumping to retreat the filtrate.
+The system which allows me to filter out the solids and recover the solids filtrate consists of 6x200L polythene drums which are linked by 25mm drum connectors to allow first settling then filtration and finally automated pumping to retreat the filtrate by treatment in the Activated Sludge System.
 
 Each 'batch' consists of around 400L of sludge/water liquor which is held to settle out for up to 12 hours depending on its settleability.
 In most cases 95% of solids have settled in 3-4 hours but I usually allow around 6-8 hours for up to 98% to settle.
