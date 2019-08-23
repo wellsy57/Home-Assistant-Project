@@ -6,7 +6,7 @@
 SOLIDS | 
 [MODBUS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MODBUS.md) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [README](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
 
-There are six separate solids recovery streams which neeed to be dealt with. 
+There are six separate solids recovery streams which need to be dealt with. 
 
 * **Shadehouse Swirl and Bio-Filtration solids**
 * **Pump Area Swirl and Bio-Filtration solids**
