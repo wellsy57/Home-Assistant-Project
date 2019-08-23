@@ -20,16 +20,16 @@ The system which allows me to filter out the solids and recover the solids filtr
 Each 'batch' consists of around 400-500L of sludge/water liquor which is held to settle out for up to 12 hours depending on its settleability.
 In most cases 95% of solids have settled in 3-4 hours but I usually allow around 6-8 hours for up to 98% to settle.
 
-At that time the settled liquor is allowed to run into the 4th and 5th drums where a fine stainless steel mesh filter covered in white polythene filter material cleans out most of the remaining sludge particles. 
+At that time the settled liquor (in the Settling Tanks) is allowed to run into the 4th and 5th drums (the Settled Tanks) where a fine stainless steel mesh filter covered in white polythene filter material filters out most of the remaining sludge particles. 
 
-The clear liquor (or Solids Filtrate) is then pumped to my storm water sump in a controlled manner whereby pumping stops at high level in the storm water sump.
-This then is forwarded to the grey water sump as the treatment system is able to handle intake.
+The clear liquor (or Solids Filtrate) is then pumped from the Solids Filtrate Tank to my Storm Water Sump in a controlled manner whereby pumping stops at high level in the storm water sump.
+This then is forwarded to the Grey Water Sump as the Treatment System is able to handle intake.
 
 It usually takes around 4-6 hours for the 400-500L of Solids Filtrate to be run into the Treatment System depending on any other inflows at the time.
 
-Every 2-3 weeks the settled sludge is removed to further separate the water from the sludge. This is done when the system is 'empty'. By pumping the 30 odd litres left in each of the settling drums to again settle out the solids in another separate 200L polythene drum. That settled liquor is then pumped back into the 4th and 5th drums and filtered as normal.
+Every 2-3 weeks the bulk settled sludge is removed to further separate the water from the sludge. This is done when the Solids Removal System is 'empty'. By pumping the 100-150 odd litres left in The Settled Tanks to again settle out the solids in another separate 200L polythene drum. That settled liquor is then pumped back into the Settled Tanks and filtered as normal.
 
-At that point the bulk settled sludge consists of around 20L quantity. This waste is then either sent to my compost bins or pumped directly to the sewerage system.
+At that point the bulk settled sludge consists of around 20-30L quantity. This waste is then either sent to my compost bins or pumped directly to the sewerage system.
 
 
 [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
