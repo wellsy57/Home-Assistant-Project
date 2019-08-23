@@ -1,4 +1,4 @@
-# Solids Removal and Filtrate Recovery
+# Solids Removal and Solids Filtrate Recovery
 
 [STORAGE](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/STORAGE.md) |
 [IRRIGATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/IRRIGATION.md) | [INPUT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/INPUT.md) | 
