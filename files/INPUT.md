@@ -1,10 +1,17 @@
-# Input
+# Input Streams
 
  [STORAGE](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/STORAGE.md) |
 [IRRIGATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/IRRIGATION.md) | INPUT | 
 [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md) | [FILTRATION](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/FILTRATION.md) | 
 [SOLIDS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/SOLIDS.md) | 
 [MODBUS](https://github.com/wellsy57/Home-Assistant-Project/blob/master/filyes/MODBUS.md) | [MQTT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/MQTT.md) | [README](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
+
+Input to the Treatment System comes from several areas outside the system but also as return streams within the system.
+* **DIRECT RAIN HARVESTING** All areas of the main house roof which can be directly captured in gutters and diverted to the 22,500L main storage tank have been. Remaining main house roof areas run to the street for now with future plans to capture and transfer to the tank. The separate double garage/workshop roof is 100% captured in gutters and diverted to the 55,000L fish pond. The top 200mm of the pond is used as a buffer storage for short term storage and treatment purposes.
+* **INDIRECT RAIN HARVESTING** I have installed a substantial stormwater piping system which is designed to capture and direct all rain which falls to ground within my house block and direct it to my storm water sump. An automated pump then transfers that water to my grey water sump which in turn automatically transfers the water to be treated by the treatment system.
+* **IRRIGATION, WASHDOWN RUNNOFF HARVESTING** My shadehouse, garden areas and concrete areas have been designed to drain into my stormwater system which is retreated.
+* **GREY WATER HARVESTING** I intercept grey water from my bathroom and laundry to be treated. Any excess which cannot be handled by treatment (or if power or system fails) flows to sewer as originally intended.
+* **SOLIDS REMOVAL FILTRATE HARVESTING** Treatment and filtration produces a high nutrient solids waste which is filtered and the solid matter is removed to a compost heaps for later garden and lawn use OR pumped to sewer if not able to handle the quantity produced. Filtrate is then retreated.
 
 There are three Input Sumps designed to contain and then control the output of any input streams entering the system or those being returned for further treatment.
 
