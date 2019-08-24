@@ -36,8 +36,7 @@ The sump is fitted with a sump pump and a low level sensor which have proven the
 
 The pump is a 1000L/hour pond pump. The sensor type is the same type as pressure switches used in clothes washing machines and dish washers for level control. I have designed my own bubble trap to be be more robust and have easier adjustment means to allow accurate level control from a mounting point easily accessible at the top of the sump.
 
-The pumped output from the sump is independent of other levels or system readiness as this pump only collects stormwater or irrigation overflow which if left insitu will find its way inside the garage as it's level rises.
-
+The pumped output from the sump is independent of other levels or system readiness as this pump only collects stormwater or irrigation overflow which if left insitu will find its way inside the garage as it's level rises. As the sump is only equipped with a low level sensor the operation is set to begin after a timed period upon first sensing low level.
 
 
 [Readme](https://github.com/wellsy57/Home-Assistant-Project/blob/master/README.md)
