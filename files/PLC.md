@@ -16,7 +16,7 @@ First I would like to give a brief look at the programming software I use. [xLog
 
 ![xLogicFullScreenshot|690x418](upload://sVzZAZJx5Sx3BO7PstSbL26FAKm.jpeg) 
 
-In the above image you can see I have a project open called Master PLC 54 (Top Left) and that I am looking at a "Simulation" of the actual PLC (at the bottom of the image) which is displayed powered up with a program status message on the LCD screen telling the user the name of the PLC, which Slot number the PLC is and that it is in the RUN state with No Faults. Note that the PLC also has 5x expansion modules connected which increases the available Inputs and Outputs substantially.
+In the above image you can see I have a project open called Master PLC 54 (Top Left) and that I am looking at a "Simulation" of the actual PLC (at the bottom of the image) which is displayed powered up with a program status message on the LCD screen telling the user the name of the PLC, which Slot number the PLC is and that it is in the RUN state with No Faults. Note that the PLC used in this program also has 5x expansion modules connected which increases the available Inputs and Outputs substantially.
 
 Below is a two page chunk of the complete program which shows the relatively simple Storm Water Sump Pump control system.
 
