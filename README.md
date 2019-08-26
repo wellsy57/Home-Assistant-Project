@@ -1,16 +1,32 @@
-# Home-Assistant Project
+[LIGHTING](https://community.home-assistant.io/t/lighting-control-pir-sensors-and-occupation/131955) | [IRRIGATION](https://community.home-assistant.io/t/irrigation-and-misting/133716) | [INPUT](https://community.home-assistant.io/t/input-streams/133606) |  [TREATMENT](https://community.home-assistant.io/t/treatment-processes/132729) | [FILTRATION](https://community.home-assistant.io/t/filtration-streams/133086) | [SOLIDS](https://community.home-assistant.io/t/solids-filtrate-recovery/133450) | [PLC](https://community.home-assistant.io/t/plc-programming/133839)
 
-[HOME](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/LIGHTSYS.md) | [ENERGY](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/ENERGY.md) | [TREATMENT](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/TREATMENT.md)| [CONTROL](https://github.com/wellsy57/Home-Assistant-Project/blob/master/files/CONTROL.md)
+#  Background
 
-This is a place for me to document my home automation systems and processes.
-
-## Background
-
-I'm an Electrical Fitter/Mechanic with a wide range of experience but an interest leaning towards automation and control. 
+I'm an Electrical Fitter/Mechanic with a wide range of experience but I certainly have an interest leaning towards automation and control. 
 
 Aside from work, my own personal journey into automation really began when I moved my family from a remote location in north Queensland to a suburban home south of Brisbane. After constructing a new shadehouse I realised that (due to work commitments eating into my free time) I really needed to automate the watering and misting of my extensive plant collection. 
 
-Initially I installed an off the shelf irrigation controller but things quickly progressed to a more refined programmable timer system. Later I began utilizing a couple of [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) to build my own custom irrigation and misting controller with more precise misting control. This system was equipped with a simple LED Mimic Panel which I divised to allow operators (the wife or kids) to diagnose system status faults for me. This was usually in conjunction with phone calls at night to me as I was often working away. Very soon I began to recognise that I also needed remote monitoring and control capability.
+Initially I installed an off the shelf irrigation controller but things quickly progressed to a more refined programmable timer system. 
+
+![Old%20Irrigation%20and%20Mist%20Controller|690x339](upload://7QOTdo8nJ57uY8xmgLllHF0DhQ5.jpeg) 
+
+Later I began utilizing a couple of [Eaton Mini PLC's](https://www.eaton.com/SEAsia/ProductsSolutions/Electrical/ProductsServices/AutomationControl/Automation/ModularProgrammableLogicControllers/index.htm) to build my own custom irrigation and misting controller with more precise misting control and early recycled water control.
+
+![EatonPLC%20Info%2002|690x93](upload://g8EMMMydn1yTYuLD426NelCxOR7.jpeg) 
+
+The Eaton PLC's were added to as more treatment functionality was needed.
+
+![EatonPLC%20Info%2003|690x77](upload://29qYOMuPe3wpJojA3oOp9OvocOm.jpeg) 
+
+This system was equipped with a simple LED Mimic Panel which I divised to allow operators (the wife or kids) to diagnose system status faults for me. 
+
+![Mimic%20Overlay%20version%2017|690x468](upload://hyMoTx49aCuvRXjHT9hCXIG4vUd.jpeg) 
+
+This was usually in conjunction with phone calls at night to me as I was often working away. Very soon I began to recognise that I also needed remote monitoring and control capability.
+
+![Mimic%20Via%20IP%20Camera|690x388](upload://uh6S4fsvcmq8x23alLKQUPpRsD3.png) 
+
+Above is an early stopgap measure where I mounted an IP camera to enable me to see the mimic panel remotely...not so good in the night but it was fine during daylight hours. The image above is a screenshot off my iPad mini using the IP camera app.
 
 So I moved on to higher spec [Rievtech PLC's.](https://www.rievtech.com) My system was expanding beyond irrigation, misting and water storage to include water treatment, solar power monitoring and outside lighting control.
 
@@ -30,7 +46,13 @@ If the control system remains down for long periods the operator can use local c
 
 ## Scada
 
-Once the hardware was in place the SCADA (SUPERVISORY, CONTROL and DATA AQUISITION) product I chose to impliment was [myScada](https://www.myscada.org/en/). When I first started using the mySCADA product it was at Version 4 and still in beta development. As such the makers offered a free for personal use, unlimited tags and PLC connections product which was really fantastic. As time went by they also developed very affordable iOS and Android apps which were quite good and relatively bug free. Surprisingly they also included very good technical help for free.
+Once the hardware was in place the SCADA (SUPERVISORY, CONTROL and DATA AQUISITION) product I chose to impliment was [myScada](https://www.myscada.org/en/). When I first started using the mySCADA product it was at Version 4 and still in beta development. 
+
+![myScada%20Version%20%204%20and%205%2001|666x500](upload://zAhRMzpxaNqm4ot1NlhtohBvqdi.png) 
+
+As such the makers offered a free for personal use, unlimited tags and PLC connections product which was really fantastic. As time went by they also developed very affordable iOS and Android apps which were quite good and relatively bug free. Surprisingly they also included very good technical help for free.
+
+![myScada%20Version%204%20and%205%2005|690x441](upload://2ijeS0bpKdfOIGEoU8V2qQ2Haax.png) 
 
 Unfortunately mySCADA changed to become a very expensive and very buggy platform with the arrival of Version 7. They no longer offered a useful free to use version but as I had become a satisfied user I chose to pay for a 500 tag, unlimited PLC connection version to accommodate my project which had well over 300 tags and 4 PLC's which were equipped with 15 expansion devices. MySCADA now offered a paid tech support service for 'premium support' and a free tech support service 'without any real support' unfortunately. The final straw for me was when Version 8 arrived and I wanted to shift my software to new physical server. I received zero help with procurement of a new Product Key which was required to install on the new server.
 
@@ -56,6 +78,14 @@ My initial modbus testing worked well however I soon realised there was a [probl
 
 Current HA version running in my QNAP ContainerStation: 0.94.0
 
+![INPUTscreenshotEdit|690x386](upload://z60LMhPtIP5KmRISyWkgVEBNuyE.png) 
+
+![TREATMENTscreenshotEDIT|690x393](upload://i6N99c9jhadTNDKNcO1fXZIfHJD.png) 
+
+![FILTRATIONscreenshotEDIT|690x392](upload://vrKH8BO2lT62G4eD5snag3xcBRp.png) 
+
+![SOLIDSscreenshotEDIT|690x388](upload://8IAR9BntfuR7OeEJ3Od093hpnul.png) 
+
 
 ## My Guiding Automation Principles
 
@@ -64,6 +94,3 @@ Current HA version running in my QNAP ContainerStation: 0.94.0
 2. Always ensure all equipment is installed and maintained in a safe manner.
 
 3. Never allow remote control or supervisory systems to override a local lockout.
-
-
-[Modbus](https://www.home-assistant.io/components/modbus/) | [Modbus Binary Sensors](https://www.home-assistant.io/components/binary_sensor.modbus/) | [Modbus Climate](https://www.home-assistant.io/components/climate.modbus/) | [Modbus Sensor](https://www.home-assistant.io/components/sensor.modbus/) | [Modbus Switch](https://www.home-assistant.io/components/switch.modbus/)
